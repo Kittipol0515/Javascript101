@@ -58,10 +58,15 @@ console.log(x);
 
 // section 3
 
-let age = 17
+let age = 221
 if(age<18) {
-console.log('bring your parent here to buy for you')
-} else {
+console.log('bring your parent here to buy for you') }
+else if (age>18){
+    console.log("live alone you nerd") }
+else {
 console.log('here you go')
 }
+
+
+
 
