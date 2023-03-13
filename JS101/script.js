@@ -68,5 +68,10 @@ console.log('here you go')
 }
 
 
+const password = "password";
+password = password.length >= 12;
 
+if(password.length >= 12);
+
+password = password.length >= 12; ? console.log('Password is too long'); : password = password.length >= 8; ? console.log('WELCOME') : console.log('not enough password'); 
 
