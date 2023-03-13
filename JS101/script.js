@@ -72,4 +72,38 @@ const password = "12313213214565465";
 
 password.length >= 12 ? console.log("Strong") : password.length >= 8 ? console.log("Weak") : console.log('Not correct');
 
+// function
+function info(name) {
+    console.log('Hello,' + name);
+}
+info("Ashely")
+
+// Space separated
+ const myinfo = function(name){
+    console.log('Hello' + name);
+}
+info("Jill");
+
+// const myinfo = name => console.log('Hello' + name);
+
+
+function game(name) {
+    console.log("Dog game," + name);
+}
+game("Valorant");
+game("League of legends");
+game("Dota2");
+// Number
+const sum = (a,b) => a+b;
+sum(5,10);
+
+
+function addNumbers(a, b) {
+    return a + b;
+}
+console.log(addNumbers (5.3));
+
+const myFunctions = function(a, b) {
+    return a * b;}
+
 
