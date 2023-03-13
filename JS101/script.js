@@ -56,3 +56,12 @@ console.log(typeof x);
 x+= 4;
 console.log(x);
 
+// section 3
+
+let age = 17
+if(age<18) {
+console.log('bring your parent here to buy for you')
+} else {
+console.log('here you go')
+}
+
