@@ -67,7 +67,7 @@ else {
 console.log('here you go')
 }
 
-
+// ternary operation
 const password = "12313213214565465";
 
 password.length >= 12 ? console.log("Strong") : password.length >= 8 ? console.log("Weak") : console.log('Not correct');
