@@ -94,16 +94,28 @@ game("Valorant");
 game("League of legends");
 game("Dota2");
 // Number
-const sum = (a,b) => a+b;
-sum(5,10);
 
-
-function addNumbers(a, b) {
+function add(a, b) {
     return a + b;
-}
-console.log(addNumbers (5.3));
+  }
+// console.log (add(5,3));
+let result = add(5,3);  
+console.log (result);
 
-const myFunctions = function(a, b) {
-    return a * b;}
+function subtract(a,b) {
+    return a - b;
+}
+console.log (subtract(10,5));
+
+function multiply(a,b) {
+    return a * b;
+}
+console.log (multiply(10,5));
+
+function divide(a,b) {
+    return a / b ;
+}
+let answer = divide(100,10);
+console.log (answer);
 
 
