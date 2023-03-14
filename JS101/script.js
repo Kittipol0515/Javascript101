@@ -138,5 +138,6 @@ function calWithReturn (num1,num2){
       console.log (a+1);
   }
   cal(total);
+// scope
 
 
