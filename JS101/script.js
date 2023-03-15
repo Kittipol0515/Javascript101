@@ -176,11 +176,22 @@ function calWithReturn (num1,num2){
 // console.log(anotherArray);
 
 // finding index
-const numbers = [1,2,3,1,4,5,6,3,8];
+// const numbers = [1,2,3,1,4,5,6,3,8];
 
-console.log(numbers.indexOf('1')); 
-// answer -1 because not in arry
-console.log(numbers.indexOf(5));
-console.log(numbers.lastIndexOf(1));
-console.log(numbers.indexOf('Game') !== -1);
+// console.log(numbers.indexOf('1')); 
+// // answer -1 because not in arry
+// console.log(numbers.indexOf(5));
+// console.log(numbers.lastIndexOf(1));
+// console.log(numbers.indexOf('Game') !== -1);
 
+const first = [1,2,3]
+const second = [4,5,6]
+
+// const combined = second.concat(first);
+// console.log(combined);
+
+const combined =[...first,...second];
+console.log(combined);
+
+const slice = combined.slice(2);
+console.log(slice); 
