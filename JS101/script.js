@@ -138,6 +138,29 @@ function calWithReturn (num1,num2){
       console.log (a+1);
   }
   cal(total);
-// scope
+
+// array
+// Exercise
+    // const numbers = [1,2,3,4,5];
+    // console.log(numbers[0])
+
+    // numbers[3] = 'Vine';
+    // console.log(numbers[3]); vine
+
+
+const numbers = [3,4]
+console.log(numbers);
+// end
+numbers.push(5,6);
+console.log(numbers);
+// begining
+numbers.unshift('logo','lego');
+console.log(numbers);
+// middle
+numbers.splice(1,0,'apple');
+console.log(numbers);
+
+// remove
+
 
 
