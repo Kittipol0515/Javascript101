@@ -213,17 +213,33 @@ console.log(slice);
 //     }
 // }
 
-for (let i = 1; i <= 10; i++) {
-    console.log('รอบนอก' + i)
+// for (let i = 1; i <= 10; i++) {
+//     console.log('รอบนอก' + i)
   
-    for (let j = 1; j <= 2; j++) {
-      console.log('รอบใน' + j)
-    }
-  }
+//     for (let j = 1; j <= 2; j++) {
+//       console.log('รอบใน' + j)
+//     }
+//   }
 
-  let temp = ''
-for (let a = 1; a <= 5; a++) {
-    temp += '*';
-    console.log(temp);
+//   let temp = ''
+// for (let a = 1; a <= 5; a++) {
+//     temp += '*';
+//     console.log(temp);
 }
+
+// let i = 0;
+// while (i < 5) {
+//     console.log(i);i++;
+// }
+
+function oddNumber() {
+    let i = 0
+while (i <=100) {
+    if (i % 2 !== 0) {
+        console.log(i)
+    }
+    i++
+}
+}
+oddNumber(20);
   
