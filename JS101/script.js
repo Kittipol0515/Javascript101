@@ -212,3 +212,12 @@ console.log(slice);
 //     console.log("Hello" + j);
 //     }
 // }
+
+for (let i = 1; i <= 10; i++) {
+    console.log('รอบนอก' + i)
+  
+    for (let j = 1; j <= 2; j++) {
+      console.log('รอบใน' + j)
+    }
+  }
+  
