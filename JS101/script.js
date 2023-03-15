@@ -148,19 +148,39 @@ function calWithReturn (num1,num2){
     // console.log(numbers[3]); vine
 
 
-const numbers = [3,4]
-console.log(numbers);
-// end
-numbers.push(5,6);
-console.log(numbers);
-// begining
-numbers.unshift('logo','lego');
-console.log(numbers);
-// middle
-numbers.splice(1,0,'apple');
-console.log(numbers);
+//  let numbers = [3,4]
+// console.log(numbers[0]);
+// // end
+// numbers.push(5,6);
+// console.log(numbers);
+// // begining
+// numbers.unshift('logo','lego');
+// console.log(numbers);
+// // middle
+// numbers.splice(1,0,'apple');
+// console.log(numbers);
 
 // remove
+// const count = ['lego','Gunpla','NSW','PS5','Promax']
+// // const last = count.pop();
+// console.log(count);
+//     // front
+//     // const front = count.shift();
+//     // console.log(count);
+// // middle
+// count.splice(1,3);
+// console.log(count);
+// console.log(numbers);
+// let anotherArray = numbers;
+// numbers = [];
+// console.log(anotherArray);
 
+// finding index
+const numbers = [1,2,3,1,4,5,6,3,8];
 
+console.log(numbers.indexOf('1')); 
+// answer -1 because not in arry
+console.log(numbers.indexOf(5));
+console.log(numbers.lastIndexOf(1));
+console.log(numbers.indexOf('Game') !== -1);
 
