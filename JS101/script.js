@@ -208,7 +208,7 @@ console.log(slice);
 
 // for (let i = 0; i < 5; ++i) {
 //     console.log(i);
-//     for (let j = 0;  3; j++) {
+//     for (let j = 0;  >3; j++) {
 //     console.log("Hello" + j);
 //     }
 // }
