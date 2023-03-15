@@ -195,3 +195,20 @@ console.log(combined);
 
 const slice = combined.slice(2);
 console.log(slice); 
+
+
+// loop
+
+// for (let i = 0; i <= 5; i++) {
+//     if (i % 2 !== 0) console.log('I am odd' + i);
+// }
+
+// let arr = ['a','b','c'];
+// for  (let i=0; i<arr.leangth; i++) console.log(arr[i]);
+
+// for (let i = 0; i < 5; ++i) {
+//     console.log(i);
+//     for (let j = 0;  3; j++) {
+//     console.log("Hello" + j);
+//     }
+// }
