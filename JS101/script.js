@@ -221,25 +221,37 @@ console.log(slice);
 //     }
 //   }
 
-//   let temp = ''
-// for (let a = 1; a <= 5; a++) {
-//     temp += '*';
-//     console.log(temp);
+   let temp = ''
+ for (let a = 1; a <= 5; a++) {
+     temp += '*';
+     console.log(temp);
 }
 
-// let i = 0;
-// while (i < 5) {
-//     console.log(i);i++;
+ let i = 0;
+ while (i < 5) {
+     console.log(i);i++;
+ }
+
+// function oddNumber() {
+//     let i = 0
+// while (i <=100) {
+//     if (i % 2 !== 0) {
+//         console.log(i)
+//     }
+//     i++
 // }
-
-function oddNumber() {
-    let i = 0
-while (i <=100) {
-    if (i % 2 !== 0) {
-        console.log(i)
-    }
-    i++
-}
-}
-oddNumber(20);
+// }
+// oddNumber(20);
   
+const letters = ['a','b','c', 'd', 'a', 'c', 'a'];
+let count = {}; //create empty object to keep track the count
+letters.forEach(item =>{
+    if (count[item]){ //check if we have an letter in
+        count[item]++;
+    }else{
+        count[item] = 1;
+    }
+});
+console.log(count);
+
+
