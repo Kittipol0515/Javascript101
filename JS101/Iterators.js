@@ -39,3 +39,37 @@ const food = ['apple' , 'banana', 'Grape' , 'mango']
 
 const filter = food.filter(n => n !== 'banana');
 console.log(filter);
+
+//like sum -- can because for sum in your shopping basket
+// const numbers = [1, 2, 3, 4, 5];
+// //a=1, c=2 => 3
+// //a=3, c=3 => 6
+// //a=6, c=4 => 10
+// //a=10, c=5 => 15 
+// const sum = numbers.reduce((accumulator,currentValue) => accumulator+currentValue);
+// console.log(sum);
+
+
+let Car = function (make, model, year){
+    this.make = make;
+    this.model = model;
+    this.year = year;
+    this.drive = function(name){
+        console.log(`${name} is driving car `);
+    };
+    
+};
+
+let myCar = new Car('Nisan', 'A123', 2003);
+
+console.log(myCar);
+console.log(myCar.drive('Jack'));
+
+let myCar1 = new Car('Honda', 'H435', 2010);
+    console.log(myCar1);
+    console.log(myCar1.drive('Jill'));
+
+
+    
+
+
