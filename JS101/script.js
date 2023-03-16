@@ -243,32 +243,5 @@ console.log(slice);
 // }
 // oddNumber(20);
 
-// Iterators
-const letters = ['a','b','c', 'd', 'a', 'c', 'a'];
-let count = {}; //create empty object to keep track the count
-letters.forEach(item =>{
-    if (count[item]){ //check if we have an letter in
-        count[item]++;
-    }else{
-        count[item] = 1;
-    }
-    console.log(count);
-});
-// console.log(count);
-
-const storeJP = [5,6,8,9];
-const storeUSD = storeJP.map(value => value*=0.85);
-
-console.log(storeJP);
-console.log(storeUSD);
-
-let storeUAD = [1,2,3,4]
-function toEuros(value) {
-    value *= 2;
-    return value;
-}
-let storeAr = storeUAD.map(toEuros);
-console.log(storeAr);
-
 
 
