@@ -31,5 +31,6 @@ function Person(first,last,nick,age,school,eye) {
 }
 
 const person =new Person('Kittipol','Nomian','Kitti','24' , 'IIS-RU' , 'Red' );
+console.log(person);
 
-console.log(`My name is ${first} + and my last name is ${last}`);
+
