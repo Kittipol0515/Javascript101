@@ -19,3 +19,5 @@ let returnPlayer = favGame['Good game'];
 console.log(favGame['Good game']);
 
 favGame.ingame();
+
+// for in object , for or array of
