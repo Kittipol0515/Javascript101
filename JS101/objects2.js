@@ -17,22 +17,22 @@ function IceCreamMaking(flavor, type, toppings) {
     "caramel suace",
   ]);
 
-  // console.log(vanillaFlavor.make());​
-  // const mintChocChip = new IceCreamMaking("Mint Chocolate Chip", "ice cream", [
-  //   "choclate sauce",
-  //   "hazelnut",
-  //   "cherry",
-  // ]);
+  console.log(vanillaFlavor.make());
+  const mintChocChip = new IceCreamMaking("Mint Chocolate Chip", "ice cream", [
+    "choclate sauce",
+    "hazelnut",
+    "cherry",
+  ]);
 
-  // console.log(mintChocChip.make());
+  console.log(mintChocChip.make());
 
-  // const strawberryYogurt = new IceCreamMaking("strawberry", "frozen yogurt", [
-  //   "strawberry",
-  //   "whipped cream",
-  //   "strawberry sauce",
-  // ]);
+//   const strawberryYogurt = new IceCreamMaking("strawberry", "frozen yogurt", [
+//     "strawberry",
+//     "whipped cream",
+//     "strawberry sauce",
+//   ]);
 
-  // console.log(strawberryYogurt.make());
+//   console.log(strawberryYogurt.make());
 
   //
   // function showProps(obj, objName) {

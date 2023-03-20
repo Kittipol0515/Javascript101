@@ -5,7 +5,7 @@ let favGame = {
     color: 'black',
     'destop': 'pc',
     ingame ()  {
-        console.log('Playing');
+        console.log(`Playing ${'elden ring'}`);
     }
 };
 
