@@ -22,6 +22,7 @@ let stocks =  {
     topping:["chocolate", "milk"]         
 };
 let is_shop_open = true; //1. is the shop open
+
 let order = (time, work) =>{ // work and time 2. customer order
     return new Promise((resolve, reject) =>{ // 3. we promise customer
         if (is_shop_open){
