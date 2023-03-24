@@ -18,18 +18,18 @@ const gods = [19,51];
 
 const kodHodKodUntarai = [];
 
-// for (let i = 0; i < aliens.length; i++) {
-//     // console.log(`i ${i}`)
-//     for (let j = 0; j < gods.length; j++) {
-//         // console.log(`j ${j}`)
-//         if (aliens[i] === gods[j]) {
-//             console.log(`counter i ${i} : alien = ${aliens[i]} | counter j ${j} : god = ${gods[j]}`)
-//             kodHodKodUntarai.push(aliens[i]);
-//         }
-//     }
-// }
+for (let i = 0; i < aliens.length; i++) {
+    // console.log(`i ${i}`)
+    for (let j = 0; j < gods.length; j++) {
+        // console.log(`j ${j}`)
+        if (aliens[i] === gods[j]) {
+            console.log(`counter i ${i} : alien = ${aliens[i]} | counter j ${j} : god = ${gods[j]}`)
+            kodHodKodUntarai.push(aliens[i]);
+        }
+    }
+}
 
-// console.log(kodHodKodUntarai) // [19, 51]
+console.log(kodHodKodUntarai) // [19, 51]
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 // while loop
@@ -38,10 +38,10 @@ const cards = ['diamond','spade','heart','club'];
 
 let currentCard
 
-// while (currentCard !== 'spade') { // run ไปเรื่อยๆ จนกว่า currentCard จะ = cards[1];
-//     currentCard = cards[Math.floor(Math.random() * 4)]; // currentCard = cards[0-3]
-//     console.log(currentCard);
-// }
+while (currentCard !== 'spade') { // run ไปเรื่อยๆ จนกว่า currentCard จะ = cards[1];
+    currentCard = cards[Math.floor(Math.random() * 4)]; // currentCard = cards[0-3]
+    console.log(currentCard);
+}
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 // do..while loop
@@ -61,19 +61,22 @@ let currentCard
 
 const numArr = [1,2,3,4,5,6,7];
 
-// Map (function)
-// const function1 = (num) => {}
-// function1(2)
-const multi = num => num * 2
+// // Map (function)
+// // const function1 = (num) => {}
+// // function1(2)
+// const multi = num => num * 2
 
-const arrMultiple = numArr.map(multi);
-console.log(arrMultiple) // [2,4,6,8,10,12,14]
+// const arrMultiple = numArr.map(multi);
+// console.log(arrMultiple) // [2,4,6,8,10,12,14]
 
-// filter (condition)
-const smallNum = numArr.filter((num) => num < 5);
-// console.log(smallNum); // [1,2,3,4]
-// console.log(numArr)
+// // filter (condition)
+// const smallNum = numArr.filter((num) => num < 5);
+// // console.log(smallNum); // [1,2,3,4]
+// // console.log(numArr)
 
-// reduce (acc, curNum)
+// // reduce (acc, curNum)
 const sum = numArr.reduce((acc,curNum) => acc + curNum);
-// console.log(sum); // 28
+console.log(sum); // 28
+
+
+// mutate and non multiate
