@@ -78,5 +78,4 @@ const numArr = [1,2,3,4,5,6,7];
 const sum = numArr.reduce((acc,curNum) => acc + curNum);
 console.log(sum); // 28
 
-
 // mutate and non multiate
