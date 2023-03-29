@@ -3,8 +3,8 @@
 // assessment เอาไปให้คุณให้โทษ => เราควรบอกตัวเองได้ว่าเราไม่รู้อะไร หรือทำอะไรไม่ได้ => การพัฒนาตัวเอง
 
 // เกม // terminal => lib promt
-// 1 แผนที่
-// 2 กติกา
+// 1 แผนที่ => generate map
+// 2 กติกา => conditional statement
 // 3 รับข้อมูล => เพื่อบังคับตัวละคร
 // ....
 
@@ -35,7 +35,30 @@ class Game {
     }
 }
 
-const map = [['*', 'o', 'o'], ['░', '░', '^'], ['░', 'o', '░']]
+// const map = [['*', 'o', 'o'], ['░', '░', '^'], ['░', 'o', '░']]
+
+// สร้าง map
+// 1. []
+// 2. [[], [], [], [], []]
+// 3. [['*', '*', '*'], [], []]
+
+function generateMap(row, col) {
+    let map = []
+
+    // hole ต้องสุ่ม ? = [][]
+    // hat ต้องสุ่ม ? = [][]
+
+    for (let i = 1; i <= row; i++) {
+        let arr = []
+        for (let j = 1; j <= col; j++) {
+            arr.push('*')
+        }
+        map.push(arr)
+    }
+    return map
+}
+
+const map = generateMap(3, 5)
 
 const myGame = new Game(map)
 
