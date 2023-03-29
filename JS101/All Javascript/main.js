@@ -27,17 +27,23 @@
 // console.log(myGame2)
 
 
-class Game {
-  constructor(map) {
-    this.map = map;
-  }
-  printMap() {
-    console.log(this.map.join(' | '));
-  }
-}
+// class Game {
+//   constructor(map) {
+//     this.map = map;
+//   }
+//   printMap() {
+    
+//     const newMap = this.map.map((row) => {
+//       return row.join('')
+//     })
+//     console.log(newMap.join('\n'))//.map เอาของ array ที่ละชิ้นออกมาแล้วส่งเข้า function ใน parameter ของ map
+//   }
+// }
 
-const map = [[1,2,3],[4,5,6],[7,8,9]]
+// const map = [[1,O,O],[4,5,6],[7,8,9]]
 
-const myGame = new Game(map)
+// const myGame = new Game(map)
 
-console.log(myGame)
+// console.log(myGame)
+
+// // myGame.printMap()
