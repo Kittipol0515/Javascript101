@@ -32,7 +32,7 @@ class Game {
     this.map = map;
   }
   printMap() {
-    console.log(this.map.join(''));
+    console.log(this.map.join(' | '));
   }
 }
 
