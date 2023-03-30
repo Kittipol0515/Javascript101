@@ -35,30 +35,30 @@ class Game {
     }
 }
 
-// const map = [['*', 'o', 'o'], ['░', '░', '^'], ['░', 'o', '░']]
+const map = [['*', 'o', 'o'], ['░', '░', '^'], ['░', 'o', '░']]
 
 // สร้าง map
 // 1. []
 // 2. [[], [], [], [], []]
 // 3. [['*', '*', '*'], [], []]
 
-function generateMap(row, col) {
-    let map = []
+// function generateMap(row, col) {
+//     let map = []
 
-    // hole ต้องสุ่ม ? = [][]
-    // hat ต้องสุ่ม ? = [][]
+//     // hole ต้องสุ่ม ? = [][]
+//     // hat ต้องสุ่ม ? = [][]
 
-    for (let i = 1; i <= row; i++) {
-        let arr = []
-        for (let j = 1; j <= col; j++) {
-            arr.push('*')
-        }
-        map.push(arr)
-    }
-    return map
-}
+//     for (let i = 1; i <= row; i++) {
+//         let arr = []
+//         for (let j = 1; j <= col; j++) {
+//             arr.push('*')
+//         }
+//         map.push(arr)
+//     }
+//     return map
+// }
 
-const map = generateMap(3, 5)
+// const map = generateMap(3, 5)
 
 const myGame = new Game(map)
 
